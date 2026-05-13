@@ -400,11 +400,29 @@ section { margin-bottom: 56px; }
   font-size: 0.68rem;
   color: var(--muted);
   white-space: nowrap;
-  padding-top: 2px;
-  min-width: 90px;
+  padding-top: 4px;
+  min-width: 52px;
 }
 
 .pub-body { flex: 1; }
+
+.pub-venue {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.65rem;
+  color: var(--accent);
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+}
+
+.pub-doi {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.65rem;
+  color: var(--muted);
+  margin-top: 6px;
+}
+
+.pub-doi a { color: var(--muted); }
+.pub-doi a:hover { color: var(--text); }
 
 /* ── Footer ──────────────────────────────────────────────────── */
 footer {
