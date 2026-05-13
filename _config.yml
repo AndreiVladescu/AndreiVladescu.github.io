@@ -1,4 +1,5 @@
-# theme: jekyll-theme-slate
-remote_theme: pages-themes/slate@v0.2.0
-
 url: "https://andreivladescu.github.io"
+author: "Andrei Vladescu"
+description: "Hardware security · Embedded systems · Reverse engineering"
+github_username: "AndreiVladescu"
+email: "avladescu2000@gmail.com"

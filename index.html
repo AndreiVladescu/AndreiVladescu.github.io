@@ -1,39 +1,180 @@
 ---
 layout: default
+title: ""
+sidebar_links:
+  - id: security
+    label: Security & RE
+  - id: robotics
+    label: Robotics
+  - id: publications
+    label: Publications
+  - id: profiles
+    label: Other Profiles
 ---
 
-<h2>Projects</h2>
-<ul>
-  <li> Hikvision Videointercom - Reverse Engineering <a href="https://andreivladescu.github.io/Hikvision-Intercom-RE/">[site]</a> <a href="https://github.com/AndreiVladescu/Hikvision-Intercom-RE">[repo]</a></li>
-  <li> Hisense Smart TV 50A6N FW Analysis <a href="https://andreivladescu.github.io/Hisense-Smart-TV-50A6N-FW-Analysis/">[site]</a> <a href="https://github.com/AndreiVladescu/Hisense-Smart-TV-50A6N-FW-Analysis">[repo]</a></li>
-  <li> TP-Link Archer A5 Analysis <a href="https://andreivladescu.github.io/TP-Link-Archer-A5-Analysis/">[site]</a> <a href="https://github.com/AndreiVladescu/TP-Link-Archer-A5-Analysis">[repo]</a></li>
-  <li> Exploiting DIR-600 Router <a href="https://andreivladescu.github.io/Exploiting-DIR-600-Router/">[site]</a> <a href="https://github.com/AndreiVladescu/Exploiting-DIR-600-Router">[repo]</a></li>
-  <li> Reverse Engineering Laser Rangefinder  <a href="https://andreivladescu.github.io/Reverse-Engineering-Laser-Rangefinder/">[site]</a> <a href="https://github.com/AndreiVladescu/Reverse-Engineering-Laser-Rangefinder">[repo]</a></li>
-  <li> Hexapod Robot <a href="https://github.com/AndreiVladescu/SPECTRA">[repo]</a></li>
-  <li> Autonomous Weapon Station <a href="https://github.com/AndreiVladescu/Sentinel">[repo]</a></li>
-  <li> ROSPIN CanSat <a href="https://github.com/Aleexuta/S4ndHunt3rs-Romanian-CanSat-and-Rocketry-Competition-2023">[repo]</a></li>
-</ul>
+<!-- Security & RE ─────────────────────────────────────────────── -->
+<section id="security">
+  <div class="section-head"><h2>Security &amp; Reverse Engineering</h2></div>
+  <div class="cards">
 
-<h2>Conferences</h2>
+    <div class="card img-card" style="--thumb: url('https://andreivladescu.github.io/Hikvision-Intercom-RE/img/front_view.png')">
+      <div class="img-card-body">
+        <div class="card-title">Hikvision DS-KV6113 Videointercom — Reverse Engineering</div>
+        <div class="card-desc">Chip-off firmware extraction revealing a global shared TLS private key, hardcoded backdoor shell, and undisclosed cloud uploads of facial recognition data.</div>
+        <div class="card-links">
+          <a href="https://andreivladescu.github.io/Hikvision-Intercom-RE/">[site]</a>
+          <a href="https://github.com/AndreiVladescu/Hikvision-Intercom-RE">[repo]</a>
+        </div>
+      </div>
+    </div>
 
-<ul>
-  <li>
-    Securing IoT Networks through Moving Target Defence, IEEE 2025 <a href="https://ieeexplore.ieee.org/document/11181607">[paper]</a>
-    <a href="https://github.com/AndreiVladescu/DDOS-Dodger">[repo]</a>
-  </li>
-  <li>
-    Handheld Synthetic Aperture Radar for Through the Wall Imaging: Motion Errors Compensation, IEEE IGARSS 2023 <a href="https://www.researchgate.net/publication/374884283_Handheld_Synthetic_Aperture_Radar_for_Through_the_Wall_Imaging_Motion_Errors_Compensation">[paper]</a>
-    <a href="https://github.com/AndreiVladescu/Referential-distance-measurement">[repo]</a>
-  </li>
-  <li>
-    Modern Automated Weapon Station, International Conference of Students 2023 <a href="https://mta.ro/evenimente/cerc-2023">[site]</a>
-  </li>
-</ul>
+    <div class="card img-card" style="--thumb: url('https://andreivladescu.github.io/Hisense-Smart-TV-50A6N-FW-Analysis/images/banner.jpeg')">
+      <div class="img-card-body">
+        <div class="card-title">Hisense 50A6N Smart TV — Firmware Analysis</div>
+        <div class="card-desc">Hardware teardown and flash extraction of an Android TV, identifying BleedingTooth (CVE-2020-12351) and a kernel information disclosure in the shipping firmware.</div>
+        <div class="card-links">
+          <a href="https://andreivladescu.github.io/Hisense-Smart-TV-50A6N-FW-Analysis/">[site]</a>
+          <a href="https://github.com/AndreiVladescu/Hisense-Smart-TV-50A6N-FW-Analysis">[repo]</a>
+        </div>
+      </div>
+    </div>
 
-<h2>Other Websites</h2>
+    <div class="card img-card" style="--thumb: url('https://andreivladescu.github.io/TP-Link-Archer-A5-Analysis/images/banner.jpeg')">
+      <div class="img-card-body">
+        <div class="card-title">TP-Link Archer A5 — Security Analysis</div>
+        <div class="card-desc">Hardware teardown and firmware RE uncovering unencrypted config files, hardcoded credentials, and a DES-ECB configuration scheme that was successfully decrypted.</div>
+        <div class="card-links">
+          <a href="https://andreivladescu.github.io/TP-Link-Archer-A5-Analysis/">[site]</a>
+          <a href="https://github.com/AndreiVladescu/TP-Link-Archer-A5-Analysis">[repo]</a>
+        </div>
+      </div>
+    </div>
 
-<ul>
-  <li> Instructables <a href="https://www.instructables.com/member/SorinSalam/instructables/">[site]</a></li>
-  <li> GrabCAD <a href="https://grabcad.com/andrei.vladescu-2/models">[site]</a></li>
-  <li> Thingiverse <a href="https://www.thingiverse.com/sorinsalam/designs">[site]</a></li>
-</ul>
+    <div class="card img-card" style="--thumb: url('https://andreivladescu.github.io/Exploiting-DIR-600-Router/images/banner.jpg')">
+      <div class="img-card-body">
+        <div class="card-title">Exploiting the D-Link DIR-600 Router</div>
+        <div class="card-desc">Firmware extraction and analysis achieving unauthenticated root access by enabling the telnet daemon through exposed debug interfaces — no CVE required.</div>
+        <div class="card-links">
+          <a href="https://andreivladescu.github.io/Exploiting-DIR-600-Router/">[site]</a>
+          <a href="https://github.com/AndreiVladescu/Exploiting-DIR-600-Router">[repo]</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card img-card" style="--thumb: url('https://andreivladescu.github.io/Reverse-Engineering-Laser-Rangefinder/images/rangefinder.jpg')">
+      <div class="img-card-body">
+        <div class="card-title">PLEM 50 C3 Laser Rangefinder — Reverse Engineering</div>
+        <div class="card-desc">Disassembly and protocol analysis of a budget laser rangefinder using a multimeter and logic analyzer to map internal communications for module repurposing.</div>
+        <div class="card-links">
+          <a href="https://andreivladescu.github.io/Reverse-Engineering-Laser-Rangefinder/">[site]</a>
+          <a href="https://github.com/AndreiVladescu/Reverse-Engineering-Laser-Rangefinder">[repo]</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Robotics ───────────────────────────────────────────────────── -->
+<section id="robotics">
+  <div class="section-head"><h2>Robotics</h2></div>
+  <div class="cards">
+
+    <div class="card">
+      <div class="card-title">SPECTRA — Hexapod Robot</div>
+      <div class="card-desc">Six-legged walking robot with autonomous gait control.</div>
+      <div class="card-links">
+        <a href="https://github.com/AndreiVladescu/SPECTRA">[repo]</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Sentinel — Autonomous Weapon Station</div>
+      <div class="card-desc">Computer vision tracking and targeting system built on CUDA and the ZED stereo camera SDK for real-time depth-aware object tracking.</div>
+      <div class="card-links">
+        <a href="https://github.com/AndreiVladescu/Sentinel">[repo]</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">ROSPIN CanSat</div>
+      <div class="card-desc">CanSat payload capturing aerial images for agricultural field change detection. Won "Highest Technical Achievement" and 3rd place at CERC 2023.</div>
+      <div class="card-links">
+        <a href="https://github.com/Aleexuta/S4ndHunt3rs-Romanian-CanSat-and-Rocketry-Competition-2023">[repo]</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Publications ────────────────────────────────────────────────── -->
+<section id="publications">
+  <div class="section-head"><h2>Publications</h2></div>
+  <div class="pub-list">
+
+    <div class="card pub">
+      <div class="pub-year">IEEE 2025</div>
+      <div class="pub-body">
+        <div class="card-title">Securing IoT Networks through Moving Target Defence</div>
+        <div class="card-links">
+          <a href="https://ieeexplore.ieee.org/document/11181607">[paper]</a>
+          <a href="https://github.com/AndreiVladescu/DDOS-Dodger">[repo]</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card pub">
+      <div class="pub-year">IEEE IGARSS 2023</div>
+      <div class="pub-body">
+        <div class="card-title">Handheld Synthetic Aperture Radar for Through the Wall Imaging: Motion Errors Compensation</div>
+        <div class="card-links">
+          <a href="https://www.researchgate.net/publication/374884283_Handheld_Synthetic_Aperture_Radar_for_Through_the_Wall_Imaging_Motion_Errors_Compensation">[paper]</a>
+          <a href="https://github.com/AndreiVladescu/Referential-distance-measurement">[repo]</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card pub">
+      <div class="pub-year">Int. Conf. 2023</div>
+      <div class="pub-body">
+        <div class="card-title">Modern Automated Weapon Station</div>
+        <div class="card-links">
+          <a href="https://mta.ro/evenimente/cerc-2023">[site]</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Other Profiles ─────────────────────────────────────────────── -->
+<section id="profiles">
+  <div class="section-head"><h2>Other Profiles</h2></div>
+  <div class="cards">
+
+    <div class="card">
+      <div class="card-title">Instructables</div>
+      <div class="card-desc">DIY project write-ups and tutorials.</div>
+      <div class="card-links">
+        <a href="https://www.instructables.com/member/SorinSalam/instructables/">[site]</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">GrabCAD</div>
+      <div class="card-desc">3D CAD models and mechanical designs.</div>
+      <div class="card-links">
+        <a href="https://grabcad.com/andrei.vladescu-2/models">[site]</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Thingiverse</div>
+      <div class="card-desc">3D-printable designs and open-source hardware.</div>
+      <div class="card-links">
+        <a href="https://www.thingiverse.com/sorinsalam/designs">[site]</a>
+      </div>
+    </div>
+
+  </div>
+</section>
