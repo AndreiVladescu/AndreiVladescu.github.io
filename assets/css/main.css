@@ -316,7 +316,7 @@ section { margin-bottom: 56px; }
   height: 200px;
   background-color: #0a0a0a;
   background-image:
-    linear-gradient(to right, rgba(10,10,10,0.92) 0%, transparent 28%, transparent 72%, rgba(10,10,10,0.92) 100%),
+    linear-gradient(to right, rgba(10,10,10,0.46) 0%, transparent 28%, transparent 72%, rgba(10,10,10,0.46) 100%),
     linear-gradient(to bottom, transparent 20%, rgba(0,0,0,0.55) 55%, rgba(0,0,0,0.88) 100%),
     var(--thumb);
   background-size: cover;
