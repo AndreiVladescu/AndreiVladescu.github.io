@@ -215,7 +215,7 @@ body.sidebar-open .sidebar { transform: translateX(0) !important; }
 
 main {
   flex: 1;
-  max-width: 900px;
+  max-width: 1250px;
   width: 100%;
   padding: 52px 32px 48px;
 }
@@ -232,8 +232,8 @@ section { margin-bottom: 56px; }
 
 .section-head h2 {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 0.65rem;
-  letter-spacing: 2.5px;
+  font-size: 0.85rem;
+  letter-spacing: 2px;
   text-transform: uppercase;
   color: var(--muted);
   white-space: nowrap;
@@ -314,8 +314,8 @@ section { margin-bottom: 56px; }
   border-top: none;
   border: 1px solid var(--border);
   position: relative;
-  width: 260px;
-  height: 210px;
+  width: 160px;
+  height: 200px;
   background-color: #0a0a0a;
   background-image: linear-gradient(
     to bottom,
@@ -544,7 +544,7 @@ footer a:hover { color: var(--text); }
   .card,
   .card.img-card { width: 100%; }
 
-  .card.img-card { height: 200px; }
+  .card.img-card { height: 190px; }
 
   .card.pub { flex-direction: column; gap: 4px; }
   .pub-year  { min-width: unset; }
