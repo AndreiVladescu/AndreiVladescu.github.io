@@ -321,8 +321,9 @@ section { margin-bottom: 56px; }
     rgba(0,0,0,0.55) 55%,
     rgba(0,0,0,0.88) 100%
   ), var(--thumb);
-  background-size: cover;
-  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 
 .card.img-card:hover {
